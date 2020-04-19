@@ -18,12 +18,12 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        padding: 40px 20px;
+        padding: 50px 20px;
         border-radius: 8px;
         background-color: $color1;
-        width: 460px;
+        width: 410px;
         height: 530px;
-        max-width: 460px;
+        max-width: 410px;
         max-height: 530px;
         animation: pop 5s normal forwards;
         animation-iteration-count: 1;
@@ -44,6 +44,7 @@
                 {
                     margin-left: 8px;
                     font-size: small;
+                    margin-bottom: 2px;
                 }
                 .input
                 {
@@ -57,13 +58,59 @@
                     -webkit-appearance: none; 
                     -moz-appearance: none; 
                     margin-bottom: 10px;
+                    
+                }
+                .button
+                {
+                    margin-top: 15px;
+                    width: 225px;
+                    height: 30px;
+                    border-radius: 10px;
+                    font-size: small;
+                    border: none;
+                    background-color: $color4;
+                    color: white;
+                    &:hover
+                    {
+                        box-shadow: 1px 2px rgba(128, 128, 128, 0.427);
+                        background-color: rgb(26, 196, 97);
+                    }
                 }
             }
-            padding-bottom: 50px;
+            padding-bottom: 25px;
         }
         .line
         {
-            width: 90%;
+            width: 80%;
+            opacity: 0.4;
+        }
+        .other-logins
+        {
+            width: 100%;
+            padding-top: 15px;
+            font-weight: 100;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .icons
+            {
+                width: 50%;
+                margin-top: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .icon-login
+                {
+                    border: none;
+                    background-color: transparent;
+                    &:hover
+                    {
+                        border: none !important;
+                        background-color: transparent;
+                        filter: drop-shadow(1px 1px 1px rgba(87, 87, 87, 0.543));
+                    }
+                }
+            }
         }
     }
 }
