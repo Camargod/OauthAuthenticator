@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
-Projeto de teste de conceito para autenticação Oauth.
+Projeto de teste de conceito para autenticação Oauth, front-end está sendo montado por Gabriel Silva de Camargo.
 
 ## Development server
 
